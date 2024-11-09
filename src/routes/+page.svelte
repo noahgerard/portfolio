@@ -48,8 +48,8 @@
 	];
 </script>
 
-<div class="flex-col flex h-full mx-auto max-w-xl gap-4 text-secondary">
-	<div class="mt-[20%] flex flex-row w-full h-fit">
+<div class="flex-col flex min-h-full mx-auto max-w-xl gap-4 my-[6rem] text-secondary">
+	<div class="flex flex-row w-full h-fit">
 		<div class="flex flex-col sm:py-2">
 			<div class="font-semibold text-4xl sm:text-6xl">
 				<p>Hey there!</p>
@@ -87,5 +87,15 @@
 				/>
 			{/each}
 		</div>
+	</div>
+
+	<div class="p-2 text-primary">
+		<p class="text-xl font-semibold">contact</p>
+		<p class="text-secondary">
+			{"Let's chat! Shoot me an email at"}
+			<a href="mailto:helix.dev.xyz@gmail.com" class="text-primary inline"
+				>helix.dev.xyz@gmail.com</a
+			>
+		</p>
 	</div>
 </div>

@@ -22,9 +22,9 @@
 	</div>
 
 	<p class="text-secondary">{description}</p>
-	<div class="flex flex-row gap-2 mt-2">
+	<div class="flex flex-row gap-2 mt-2 flex-wrap">
 		{#each tags as tag}
-			<div class="text-xs bg-secondary/10 text-secondary p-1 rounded">{tag}</div>
+			<div class="text-xs h-fit bg-secondary/10 text-secondary p-1 rounded">{tag}</div>
 		{/each}
 	</div>
 </div>
